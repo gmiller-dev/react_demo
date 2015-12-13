@@ -25,7 +25,7 @@ var config = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.js|jsx$/,
         loader: 'babel',
         exclude: [nodeModulesPath]
       }
