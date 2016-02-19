@@ -2,10 +2,9 @@ require('babel-polyfill');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import WordBank from './WordBank.jsx';
+import Clock from './components/Clock.jsx';
 
 ReactDOM.render(
-  <WordBank />,
+  <Clock/>,
   document.getElementById('content')
 );
